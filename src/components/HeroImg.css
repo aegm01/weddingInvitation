@@ -1,0 +1,25 @@
+.heroImgContainer {
+  position: relative;
+}
+
+.heroImgContainer img {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+.heroImgContainer p {
+  color: white;
+  position: absolute;
+  width: 90vw;
+  height: 20vh;
+  top: 30vh;
+  left: 5vw;
+  right: 5vw;
+  text-align: center;
+  font-family: var(--font-family-hero);
+  font-size: 60px;
+  line-height: 1.1;
+}

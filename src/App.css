@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.slides {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: block mandatory;
+}
+
+.slide {
+  width: 100%;
+  height: inherit;
+  background-color: #1e2345;
+  scroll-snap-align: center;
+}
+
+:root {
+  --fond-family: "Lato", sans-serif;
+  --font-family-hero: "Golden Bloom", sans-serif;
+  --font-family-slide1: "Lato", sans-serif;
+  --font-family-locationSlideCursive: "Golden Bloom", sans-serif;
+}
+
+@media screen and (orientation: landscape) {
+  #noneLandscape {
+    display: none;
+  }
+}

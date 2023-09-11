@@ -1,0 +1,103 @@
+.locationSlideContainer {
+  position: relative;
+}
+
+.locationSlideContainer img {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  opacity: 0.95;
+}
+
+.locationSlideContainer h1 {
+  color: black;
+  position: absolute;
+  width: 75vw;
+  height: 20vh;
+  top: -1vh;
+  left: 12.5vw;
+  right: 12.5vw;
+  text-align: center;
+  font-family: var(--font-family-locationSlideCursive);
+  letter-spacing: 1px;
+  font-size: 75px;
+}
+
+.locationSlideContainer p {
+  color: black;
+  width: 75vw;
+  height: 15vh;
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  position: absolute;
+  top: 19vh;
+  left: 12.5vw;
+  right: 12.5vw;
+}
+
+.locationSlideContainer h2:first-of-type {
+  color: black;
+  width: 75vw;
+  height: 15vh;
+  text-align: center;
+  font-weight: 300;
+  font-size: 22px;
+  position: absolute;
+  top: 24vh;
+  left: 12.5vw;
+  right: 12.5vw;
+}
+
+.locationSlideContainer h2:last-of-type {
+  color: black;
+  width: 75vw;
+  height: 15vh;
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  position: absolute;
+  top: 32.5vh;
+  left: 12.5vw;
+  right: 12.5vw;
+}
+
+.locationSlideContainer iframe {
+  opacity: 0.7;
+  position: absolute;
+  width: 80vw;
+  height: 40vh;
+  top: 45vh;
+  left: 10vw;
+  right: 10vw;
+  border-radius: 5%;
+  border: 2px solid #cea641;
+}
+
+.locationSlideContainer h3 {
+  color: black;
+  width: 90vw;
+  height: 15vh;
+  text-align: center;
+  font-weight: 300;
+  font-size: 15px;
+  position: absolute;
+  top: 36vh;
+  left: 5vw;
+  right: 5vw;
+}
+
+.locationSlideContainer h4 {
+  color: black;
+  width: 75vw;
+  height: 15vh;
+  text-align: center;
+  font-weight: 300;
+  font-size: 40px;
+  position: absolute;
+  top: 18vh;
+  left: 12.5vw;
+  right: 12.5vw;
+  font-family: var(--font-family-hero);
+}
