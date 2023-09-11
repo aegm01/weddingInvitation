@@ -31,11 +31,11 @@ const AssistanceConfirmation = () => {
 
   return (
     <div className="assistanceConfirmationContainer">
-      <img src="/5.jpg" alt="bg" />
+      <img src="./5.jpg" alt="bg" />
       <p>Por favor confirmar asistencia antes del dia 13 de Marzo del 2023.</p>
       <p id={`${feelback ? "feelback" : "none"}`}>
         <i>Enviado </i>
-        <img src="/send.svg" alt="" />
+        <img src="./send.svg" alt="" />
       </p>
       <section className="contactForm">
         <form action="aegm0143@gmail.com" method="POST" className="contact-form" onSubmit={handleSubmitInContactForm}>

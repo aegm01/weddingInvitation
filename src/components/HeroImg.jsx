@@ -4,7 +4,7 @@ import "./HeroImg.css";
 const HeroImg = () => {
   return (
     <div className="heroImgContainer">
-      <img src="/hero.jpg" alt="hero-img" />
+      <img src="./hero.jpg" alt="hero-img" />
       <p>Emanuel & Michelle</p>
     </div>
   );

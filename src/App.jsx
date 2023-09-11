@@ -27,7 +27,7 @@ function App() {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           }
-          bg={"/bgfiesta.jpg"}
+          bg={"./bgfiesta.jpg"}
         />
       </section>
       <section className="slide">
@@ -43,7 +43,7 @@ function App() {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           }
-          bg={"/4.jpg"}
+          bg={"./4.jpg"}
         />
       </section>
       <section className="slide">
@@ -59,7 +59,7 @@ function App() {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           }
-          bg={"/11.jpg"}
+          bg={"./11.jpg"}
         />
       </section>
       <section className="slide">

@@ -1,15 +1,7 @@
 import React from "react";
 import "./LocationSlide.css";
 
-const LocationSlide = ({
-  title,
-  p1,
-  p2 = false,
-  p3,
-  p4 = false,
-  googlemaps,
-  bg,
-}) => {
+const LocationSlide = ({ title, p1, p2 = false, p3, p4 = false, googlemaps, bg }) => {
   return (
     <div className="locationSlideContainer">
       <img src={bg} alt="bg" />
