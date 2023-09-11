@@ -4,7 +4,7 @@ import "./LetterSlide.css";
 const LetterSlide = () => {
   return (
     <div className="letterSlideContainer">
-      <img className="bg" src="/1.jpg" alt="bg" />
+      <img className="bg" src="./1.jpg" alt="bg" />
       <img src="./sobre.svg" alt="sobre" />
       <p>
         <i>
